@@ -110,6 +110,7 @@ nav {
   border: 1px solid #00557d;
   color: #00557d;
   margin-right: 8px;
+  transition: 0.5s;
 }
 
 .btns #btn2 {
@@ -174,7 +175,7 @@ nav {
     display: none;
   }
 
-  .links ul {
+  #link {
     position: fixed;
     display: flex;
     flex-direction: column;
@@ -188,9 +189,10 @@ nav {
     z-index: 99;
     box-shadow: 0 40px 60px rgba(0, 0, 0, 0.3);
     padding: 80px 0 0 10px;
+    transition: 0.3s ease;
   }
 
-  .links.active {
+  #link.active {
     right: 0px;
   }
 
@@ -229,6 +231,14 @@ nav {
   .btns {
     padding-bottom: 0px;
     padding: 10px 0;
+  }
+
+  #close {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: 25px;
+    color: #00557d;
   }
 }
 
