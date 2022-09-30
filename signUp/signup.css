@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+#signup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#text {
+  width: 40%;
+  height: 100vh;
+  background: #55b1df;
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+  position: relative;
+}
+
+#text h1 {
+  height: 60px;
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-top: 50px;
+}
+
+#text p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+#text img {
+  width: 174px;
+  height: 62px;
+  position: absolute;
+  bottom: 0;
+  align-items: center;
+  margin-bottom: 50px;
+  left: 185px;
+}
+
+#form {
+  width: 55%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#form h1 {
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 60px;
+  color: #00557d;
+}
+
+#form p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #00557d;
+}
+
+#width {
+  width: 642px;
+}
+
+.forms label {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.forms input,
+button {
+  width: 80%;
+  height: 56px;
+  padding: 16px 10px;
+  border-radius: 10px;
+  border: 1px solid #00557d;
+}
+
+.forms input::placeholder {
+  font-size: 14px;
+  padding: 0 8px;
+}
+
+.forms button {
+  background: #00557d;
+  color: #fff;
+}
+
+.forms button:hover {
+  opacity: 0.8;
+}
+
+.forms a {
+  text-decoration: none;
+  width: 80%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 400;
+  color: #00557d;
+  height: 18px;
+  padding: 15px 0;
+}
+
+#width #center {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#width #center p {
+  font-size: 24px;
+  font-weight: 400;
+  padding-top: 15px;
+}
+
+#width #center #icon a {
+  padding: 25px 8px;
+  width: 42px;
+  height: 43px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #00557d;
+}
+
+#width #center .acc {
+  font-size: 12px !important;
+}
+
+#width #center .acc span {
+  font-weight: 700;
+}

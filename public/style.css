@@ -34,6 +34,7 @@ nav {
 
 .navbar ul li {
   list-style: none;
+  position: relative;
 }
 
 .navbar ul li a {
@@ -43,6 +44,21 @@ nav {
   list-style: 0.25px;
   color: #212121;
   font-weight: 500;
+}
+
+.navbar ul li a:hover{
+  color: #00557d;
+}
+
+.navbar ul li a:hover::after{
+  content: '';
+  width: 50%;
+  height: 2px;
+  position: absolute;
+  background: #00557d;
+  left: 0px;
+  bottom: -4px;
+  transition: 0.3s ease;
 }
 
 .links .btns {
@@ -62,6 +78,10 @@ nav {
   font-weight: 500;
 }
 
+.btn #signup:hover{
+ opacity: .8;
+}
+
 .btn #login {
   width: 91px;
   height: 48px;
@@ -72,6 +92,13 @@ nav {
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
+}
+
+.btn #login:hover{
+  background: #00557d;
+  color: #fff;
+  opacity: .8;
+  transition: 0.3s;
 }
 
 /* Hero */
