@@ -355,6 +355,68 @@ background-position: center;
 }
 
 
+/* section 5 */
+.section5 {
+  background-color: white;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 70px;
+  line-height: 2;
+}
+
+.section5 #container1{
+  width: 50%;
+  height: 500px;
+  background-color: #FFFFFF;
+  line-height: 1.5;
+}	
+.section5 h1 {
+    font-family: Nunito;
+    font-weight: 700;
+    font-size: 57px;
+    line-height: 78px;
+    font-style: normal;
+    color: #00557D;
+    padding-right: 100px;
+}
+.section5 p {
+    font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 48px;
+  padding-right: 50px;
+  width: 478px;
+  height: 192px;
+}
+.section5 input[type=button]{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 24px;
+  gap: 8px;
+  background: #00557D;
+  color: #FFFFFF;
+  border-radius: 10px;
+}
+.section5 #container2{
+  width: 50%;
+  height: 500px;
+}
+.section5 #Employers{
+  width: 605px;
+  height: 500px;
+  right: 11px;
+  top: 0px;
+  padding-left: 70px;
+}	
 
 /* Section 7  */
 
