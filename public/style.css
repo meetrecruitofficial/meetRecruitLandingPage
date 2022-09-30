@@ -185,6 +185,93 @@ nav {
   display: none;
 }
 
+/* Section 7  */
+
+.sectionSeven >div:first-of-type{
+  position: relative;
+  left: 17rem;
+}
+
+.sectionSeven >div:last-of-type {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: repeat(3, auto);
+  gap: 20px;
+  justify-content: center;
+}
+
+
+.sectionSeven >div:first-of-type p:first-of-type {
+  font-size: 40px !important;
+  color: #00557D;
+}
+
+.sectionSeven >div:first-of-type p a {
+  color:#00557D;
+  text-decoration: none;
+}
+
+
+.sectionSeven div:last-of-type a:first-of-type {
+  background: url(img/finance.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.sectionSeven div:last-of-type a:nth-child(2) {
+  background: url(img/e-commerce.jpg);
+  background-position: center;
+  background-size:cover;
+}
+
+.sectionSeven div:last-of-type a:nth-child(3) {
+  background: url(img/webdev.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.sectionSeven div:last-of-type a:nth-child(4) {
+  background: url(img/customer-support.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.sectionSeven div:last-of-type a:nth-child(5) {
+  background: url(img/writing.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.sectionSeven div:last-of-type a:nth-child(6) {
+  background: url(img/idea.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.sectionSeven div:last-of-type a:nth-child(7) {
+  background: url(img/digital-marketing.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.sectionSeven div:last-of-type a:nth-child(8) {
+  background: url(img/data-analysis.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+
+.sectionSeven div:last-of-type a:last-of-type {
+  width: 60%;
+  height: 40px;
+  position: relative;
+  left: 60px;
+  top: 30px;
+  background: #00557D;
+  color: white;
+}
+/* end of section 7 */
+
 /* Media  */
 
 @media (max-width: 844px) {
@@ -267,6 +354,43 @@ nav {
     font-size: 25px;
     color: #00557d;
   }
+
+   /* section 7*/
+
+.sectionSeven >div:first-of-type{
+  left: 0;
+}
+
+.sectionSeven >div:first-of-type p:first-of-type {
+  color: #00557D;
+  font-size: 30px !important;
+}
+
+.sectionSeven > p a {
+  color:#00557D;
+  text-decoration: none;
+}
+
+.sectionSeven >div:last-of-type {
+  display: grid;
+  grid-template-columns: repeat(3, 250px);
+  grid-template-rows: repeat(3, 100px);
+  row-gap: 20px;
+  column-gap: 10px
+}
+
+
+
+.sectionSeven div:last-of-type a:last-of-type {
+  width: 60%;
+  height: 40px;
+  position: relative;
+  top: 30px;
+  left: 40px;
+  background: #00557D;
+  color: white;
+}
+/* section 7 end*/
 }
 
 @media (max-width: 477px) {
@@ -289,6 +413,49 @@ nav {
     margin: 15px;
     margin-left: 15px;
   }
+
+  /* section 7 */
+
+  .sectionSeven >div:first-of-type{
+    left: 0;
+  }
+  
+  .sectionSeven >div:first-of-type p:first-of-type {
+    color: #00557D;
+    font-size: 25px !important;
+  }
+  
+
+.sectionSeven > p a {
+  color:#00557D;
+  text-decoration: none;
+}
+
+.sectionSeven >div:last-of-type {
+  display: grid;
+  grid-template-columns: repeat(2, 150px);
+  grid-template-rows: repeat(3, 100px);
+  row-gap: 20px;
+  column-gap: 10px
+}
+
+.sectionSeven div:last-of-type a:nth-child(7) {
+  height: 100px !important;
+}
+
+.sectionSeven div:last-of-type a:nth-child(8) {
+  height: 100px !important;
+}
+
+.sectionSeven div:last-of-type a:last-of-type {
+  width: 60%;
+  height: 40px;
+  position: relative;
+  left: 120px;
+  background: #00557D;
+  color: white;
+}
+/* end of section 7  */
 }
 
 /* section 2 */
