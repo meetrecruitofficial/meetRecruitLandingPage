@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Poppins:wght@400;600;700&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+
+
+
+ 
+
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito';
+}
+
+h1{
+    color: #00557D;
+}
+
+.section-3{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    position: relative;
+    width:100%;
+    height: auto;
+    margin: 0 20px; 
+}
+
+/* IMAGE */
+.images img{
+    object-fit: cover;
+    width: 100%;
+    
+}
+/* END OF IMAGE */
+
+
+
+/* CONTENT */
+.content{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+}
+
+/* LIST TICK STYLING */
+.list-tick ul{
+  list-style-type: none;
+
+}
+
+.list-tick ul li::before{
+  content: "";
+  height: 1.5em;
+  width: 1.5em;
+  display: block;
+  float: left;
+  align-items: center;
+  margin-left: -1.5rem;
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: 100%;
+}
+
+.list-tick ul > li::before{
+  background: url("./check.png");
+  background-size: cover;
+  background-position: center;
+ 
+}
+/* END OF LIST TICK STYLING */
+
+.content h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 57px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-right:40px;
+}
+
+.content h1 span{
+    color: #C8A500;
+}
+
+.content ul{
+    padding-left: 23px;
+}
+
+.content ul li{
+    padding-top:10px ;
+    color: #00557D;
+}
+/* END OF CONTENT */
+
+/* BUTTON */
+.content .button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 8px;
+    width: 130px;
+    height: 56px;
+    background: #00557D;
+    border-radius: 10px;
+}
+
+.content a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+/* END OF BUTTON */
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 768px){
+    .section-3{
+        gap: 10px;  
+    }
+    .content h1{
+        font-size: 28px;
+    }
+}
+@media screen and (max-width: 477px){
+    .section-3{
+        flex-direction: column;
+        width: 100%;     
+    }
+
+}
+
+
+
+
+
+
