@@ -1,0 +1,101 @@
+
+
+.body {
+    background: #00557D;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    height: 100vh;
+    color: #000;
+    margin: 0%;
+    padding: 0;
+}
+.text-center{
+  text-align: center;
+  color: #fff;
+}
+.test{
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 57px;
+}
+/* .container{
+    width: 90%;
+    margin: auto;
+} */
+.swiper {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  position: relative;
+  z-index: 2px;
+
+}
+
+.swiper-slide {
+  font-size: 18px;
+  height: 50%;
+  width: 100%;
+  border-radius: 20px;
+  padding: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+}
+.swiper-wrapper{
+  height: 50%;
+  width: 100%;
+  display: flex;
+  margin-left: 10%;
+}
+.card-body{
+  width: 100%;
+  height: 90%;
+  margin-top: 10%;
+  padding: 0 10px;
+  border-radius: 15px;
+  /* background: #C8A500; */
+  background: #fff;
+}
+.card-item1{
+  margin-top: 10px;  
+  height:40% ;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 60% 40%;
+
+}
+.quote{
+    position: relative;
+    display: flex;
+    justify-content: end;
+    position: relative;
+    top: -115px;
+    left:70%;
+}
+@media screen and (max-width: 767px) {
+    html{
+        height: 100vh;
+        background:#00557D;
+    }
+    .card-item1{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 10px 0;
+    }
+    .card-body p{
+        margin-top: 20px;
+    }
+    .swiper-slide {
+        height: 100%;
+    }
+    .swiper-wrapper{
+        height: 100%;
+    }
+    .swiper{
+        height: 100%;
+    }
+}

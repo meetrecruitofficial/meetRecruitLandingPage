@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="../css/sec7.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+
+   
+  </head>
+
+  <body>
+   <div class="body">
+     <!-- Swiper -->
+     <h1 class="test text-center">Testimonials</h1>
+     <div class="swiper mySwiper">
+     
+       <div class="swiper-wrapper">
+         <div class="swiper-slide">
+          <section class="card-body container">
+            <section class="card-item1">
+              <img src="../img/test1.png">
+              <p>Charlse Accra
+                <div class="quote"><img src="../img/img-quote.png"></div>
+              </p>
+            </section>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing 
+              elit. At dolor ornare dignissim dictum.
+            </p>
+          </section>
+         </div>
+         <div class="swiper-slide">
+           <section class="card-body container">
+             <section class="card-item1">
+               <img src="../img/test2.png">
+               <p>Charlse Accra
+                 <div class="quote"><img src="../img/img-quote.png"></div>
+               </p>
+             </section>
+             <p>
+               Lorem ipsum dolor sit amet, consectetur adipiscing 
+               elit. At dolor ornare dignissim dictum.
+             </p>
+           </section>
+         </div>
+         <div class="swiper-slide">
+          <section class="card-body container">
+            <section class="card-item1">
+              <img src="../img/test3.png">
+              <p>Charlse Accra
+                <div class="quote"><img src="../img/img-quote.png"></div>
+              </p>
+            </section>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing 
+              elit. At dolor ornare dignissim dictum.
+            </p>
+          </section>
+         </div>
+         <div class="swiper-slide">
+          <section class="card-body container">
+            <section class="card-item1">
+              <img src="../img/test4.png">
+              <p>Charlse Accra
+                <div class="quote"><img src="../img/img-quote.png"></div>
+              </p>
+            </section>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing 
+              elit. At dolor ornare dignissim dictum.
+            </p>
+          </section>
+         </div>
+         <div class="swiper-slide">
+          <section class="card-body container">
+            <section class="card-item1">
+              <img src="../img/test5.png">
+              <p>Charlse Accra
+                <div class="quote"><img src="../img/img-quote.png"></div>
+              </p>
+            </section>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing 
+              elit. At dolor ornare dignissim dictum.
+            </p>
+          </section>
+         </div>
+         <div class="swiper-slide">
+          <section class="card-body container">
+            <section class="card-item1">
+              <img src="../img/test6.png">
+              <p>Charlse Accra
+                <div class="quote"><img src="../img/img-quote.png"></div>
+              </p>
+            </section>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing 
+              elit. At dolor ornare dignissim dictum.
+            </p>
+          </section>
+         </div>
+         <div class="swiper-slide">
+          <section class="card-body container">
+            <section class="card-item1">
+              <img src="../img/test7.png">
+              <p>Charlse Accra
+                <div class="quote"><img src="../img/img-quote.png"></div>
+              </p>
+            </section>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing 
+              elit. At dolor ornare dignissim dictum.
+            </p>
+          </section>
+         </div>
+         <div class="swiper-slide">
+          <section class="card-body container">
+            <section class="card-item1">
+              <img src="../img/test8.png">
+              <p>Charlse Accra
+                <div class="quote"><img src="../img/img-quote.png"></div>
+              </p>
+            </section>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing 
+              elit. At dolor ornare dignissim dictum.
+            </p>
+          </section>
+         </div>
+        
+       </div>
+       
+       
+     </div>
+     <div class="swiper-pagination"></div>
+     <!-- Swiper JS -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+ 
+     <!-- Initialize Swiper -->
+     <script>
+       var swiper = new Swiper(".mySwiper", {
+         slidesPerView: 3,
+         spaceBetween: 10,
+         pagination: {
+           el: ".swiper-pagination",
+           clickable: true,
+          
+         },
+         breakpoints: {
+           640: {
+             slidesPerView: 2,
+             spaceBetween: 20,
+           },
+           768: {
+             slidesPerView: 4,
+             spaceBetween: 40,
+           },
+           1024: {
+             slidesPerView: 5,
+             spaceBetween: 50,
+           },
+         },
+       });
+     </script>
+   </div>
+  </body>
+</html>
