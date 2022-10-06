@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Education</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+    <header class="mb-5">
+        <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-light">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand"><img src="img/logo.png" alt=""></a>
+
+                <i class="fs-1">
+                    <ion-icon name="person-circle-outline"></ion-icon>
+                </i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="py-5 px-2 px-md-3">
+        <section>
+            <p class="fs-3 text-capitalize fw-semibold">add education</p>
+
+            <form action="#">
+                <div>
+                    <label for="school" class="text-capitalize form-label fw-semibold">school</label>
+                    <input type="text" class="rounded form-control" id="school" placeholder="enter your school of study">
+                </div>
+
+                <div class="my-4">
+                    <label for="degree" class="text-capitalize form-label fw-semibold">degree</label>
+                    <input type="text" class="rounded form-control" id="degree" placeholder="e.g Bsc. international law" >
+                </div>
+
+                <div>
+                    <label for="dateAttended" class="text-capitalize form-label fw-semibold ">dates attended</label>
+                    <div class="d-flex flex-column flex-md-row">
+                        <input type="datetime" placeholder="from" class="rounded form-control mb-4 mb-md-0 me-md-3">
+                        <input type="datetime" placeholder="to(or expected graduation date)" class="rounded form-control">
+                    </div>
+                </div>
+
+                <div class="d-flex flex-column my-4">
+                    <label for="description" class="text-capitalize form-label fw-semibold ">description</label>
+                    <textarea name="description" id="" cols="30" rows="10" placeholder="Describe your course, awards e.t.c" class="rounded p-2"></textarea>
+                </div>
+            </form>
+            <div class="d-flex justify-content-between">
+                <button class="btn btn-outline fw-semibold text-capitalize" href="#">cancel</button>
+                <button class="btn fw-semibold text-capitalize" href="#">save</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

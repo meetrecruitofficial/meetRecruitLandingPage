@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header nav {
+    border-bottom: 1px solid  #00557d;
+}
+
+header .navbar-brand img {
+    width: 100px;
+}
+
+main section > p {
+    color:#00557d;
+}
+
+main section form div label {
+    color: #00557d;
+}
+
+main section form div input {
+    border: 1px solid #00557d !important;
+}
+
+main section form div textarea {
+    border: 1px solid #00557d !important;
+}
+
+main section > div:last-of-type button:first-of-type {
+    color:#00557d;
+    border: 1px solid #00557d;
+}
+
+main section > div:last-of-type button:first-of-type:hover {
+    color:#00557d;
+    border: 1px solid #00557d;
+    box-shadow: 1px 1px 5px ;
+}
+
+main section > div:last-of-type button:last-of-type {
+    background-color: #00557d;
+    color: white;
+}

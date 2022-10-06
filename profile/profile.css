@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header nav {
+    border-bottom: 1px solid #00557d;
+}
+
+header .navbar-brand img {
+    width: 100px;
+}
+
+
+main section:first-of-type >div div:first-of-type {
+    width: 50px;
+    height: 50px;
+}
+
+.profileName {
+    color: #00557d;
+}
+
+.profileName p:first-of-type span {
+    border: 1px solid #00557d;
+    color:#00557d;
+    height: 32px;
+    width: 32px;
+}
+
+.profileName p:first-of-type span ion-icon {
+    position: relative;
+    right: 5px;
+}
+
+.profileName p:first-of-type span:hover {
+    box-shadow: 1px 1px 5px ;
+}
+
+.profileName button {
+    color:#00557d;
+    border: 1px solid #00557d;
+}
+
+.profileName button:hover {
+    color:#00557d;
+    border: 1px solid #00557d;
+    box-shadow: 1px 1px 5px ;
+}
+
+main section:last-of-type >div:last-of-type div {
+    width: 350px;
+    height: 300px;
+}
+
+main section:first-of-type >div:nth-child(2) button:first-of-type {
+    background-color:#00557d;
+}
+
+main section:first-of-type >div:nth-child(2) button:last-of-type {
+    color:#00557d;
+    border: 1px solid #00557d;
+}
+
+main section:first-of-type >div:nth-child(2) button:last-of-type:hover {
+    box-shadow: 1px 1px 5px ;
+}
+
+.product, .work, .portfolio {
+    border: 1px solid #00557d;
+}
+
+.product, .work, .portfolio p:first-of-type {
+    color: #00557d;
+}
+
+.product p:first-of-type span {
+    border: 1px solid #00557d;
+    color:#00557d;
+    height: 32px;
+    width: 32px;
+}
+
+.product p:last-of-type {
+    color: black;
+}
+
+.product p:first-of-type span:hover {
+    box-shadow: 1px 1px 5px ;
+}
+
+.product p:first-of-type span ion-icon {
+    position: relative;
+    right: 5px;
+}
+
+.skill button {
+    color:#00557d;
+    border: 1px solid #00557d;
+}
+
+
+
+.work p:first-of-type span {
+    background-color: #00557d;
+    color: white;
+    height: 32px;
+    width: 32px;
+}
+
+.work p:first-of-type span ion-icon {
+    position: relative;
+    right: 5px;
+}
+
+.portfolio p:first-of-type span {
+    background-color: #00557d;
+    color: white;
+    height: 32px;
+    width: 32px;
+}
+
+.portfolio p:first-of-type span ion-icon {
+    position: relative;
+    right: 5px;
+}
+
+
+.video p:first-of-type {
+    color:#00557d;
+}
+
+.video p:first-of-type span {
+    background-color: #00557d;
+    color: white;
+    height: 32px;
+    width: 32px;
+}
+
+.video p:first-of-type span ion-icon {
+    position: relative;
+    right: 5px;
+}
+
+.language p:first-of-type {
+    color:#00557d;
+}
+
+.language p:first-of-type span {
+    background-color: #00557d;
+    color: white;
+    height: 32px;
+    width: 32px;
+}
+
+.language p:first-of-type span ion-icon {
+    position: relative;
+    right: 5px;
+}
+
+.duration p:first-of-type {
+    color:#00557d;
+}
+
+.duration p:first-of-type span {
+    border: 1px solid #00557d;
+    color:#00557d;
+    height: 32px;
+    width: 32px;
+}
+
+.duration p:first-of-type span ion-icon {
+    position: relative;
+    right: 5px;
+}
+
+.duration p:first-of-type span:hover {
+    color:#00557d;
+    border: 1px solid #00557d;
+    box-shadow: 1px 1px 5px ;
+}
+
+.education p:first-of-type {
+    color:#00557d;
+}
+
+.education p:first-of-type span {
+    background-color: #00557d;
+    color: white;
+    height: 32px;
+    width: 32px;
+}
+
+.education p:first-of-type span ion-icon {
+    position: relative;
+    right: 5px;
+}
+
+.skill p:first-of-type {
+    color:#00557d;
+}
+
+.skill p:first-of-type span {
+    background-color: #00557d;
+    color: white;
+    height: 32px;
+    width: 32px;
+}
+
+.skill p:first-of-type span ion-icon {
+    position: relative;
+    right: 5px;
+}
+
+.skill button:hover {
+    color:#00557d;
+    border: 1px solid #00557d;
+    box-shadow: 1px 1px 5px ;
+}
+
+.certifications p:first-of-type {
+    color:#00557d;
+}
+
+.certifications p:first-of-type span {
+    background-color: #00557d;
+    color: white;
+    height: 32px;
+    width: 32px;
+}
+
+.certifications p:first-of-type span ion-icon {
+    position: relative;
+    right: 5px;
+}
+
+footer {
+    background:#00557d;
+}
+
+footer ul {
+    padding-left: 0px !important;
+}
+
+footer ul li{
+    list-style-type: none;
+}
+
+footer ul li a:hover {
+    color: white;
+    font-weight: 500px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer input {
+    height: 50px;
+}
+
+footer .subscribe {
+    background-color:#00557d;
+    position: relative;
+    bottom: 2.7rem;
+    left: 16rem;
+}
+
+footer .subscribe:focus {
+    background-color:#00557d;
+}
+
+footer .socialMedia button {
+    height: 32px;
+    width: 32px;
+}
+
+footer .socialMedia button ion-icon {
+    position: relative;
+    right: 5px;
+}
+
+
+@media  screen and (min-width: 800px) {
+    .navBarLinks {
+        position: relative;
+        left: 25rem;
+    }
+
+    main section:first-of-type >div:nth-child(2) button {
+        height: 40px !important;
+    }
+
+    main section:first-of-type >div:last-of-type {
+        width: 400px;
+    }
+
+    main section:last-of-type >div:last-of-type div {
+        width: 100%;
+        height: 300px;
+    }
+
+    main section:last-of-type >div:first-of-type {
+        flex: 1;
+    }
+
+    main section:last-of-type >div:last-of-type {
+        flex: 2;
+    }
+
+    footer > div:first-of-type {
+        gap: 10rem;
+        border-bottom: 2px solid white;
+        padding-bottom: 1rem;
+    }
+
+    footer > div:first-of-type div:first-of-type {
+        gap: 10rem;
+    }
+
+    footer > div:first-of-type div:last-of-type {
+        gap: 10rem;
+    }
+
+    footer .subscribe {
+        position: relative;
+        bottom: 2.7rem;
+        left: 12.5rem;
+    }
+
+    footer .socialMedia button {
+        height: 40px;
+        width: 40px;
+        font-size: larger;
+    }
+    
+    footer .socialMedia button ion-icon {
+        position: relative;
+        right: 3px;
+        top: 2px;
+    }
+}
